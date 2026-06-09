@@ -44,13 +44,10 @@ export default function RootLayout() {
         {/* Registra a tela detalhes.tsx como parte da pilha de navegação */}
         {/* Quando chamamos router.push('/detalhes'), o Stack sabe que essa tela existe */}
 
-<<<<<<< HEAD
         <Stack.Screen name="resumo" />
         {/* Registra a tela resumo.tsx como parte da pilha de navegação */}
         {/* Quando chamamos router.push('/resumo'), o Stack sabe que essa tela existe */}
 
-=======
->>>>>>> 19028a9ce4299999a80185912d392ae5c612db4b
       </Stack>
 
     </ThemeProvider>
